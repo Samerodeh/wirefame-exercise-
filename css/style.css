@@ -75,8 +75,14 @@ main section:nth-child(3) {
   
 
 }
+
+main article { 
+  height: 330px;
+  overflow: scroll;
+  margin: 7px 0; 
+}
  
-main h5 { 
+main button { 
     display: grid;
     grid-template-columns: 1fr; 
     text-align: center; 
@@ -88,7 +94,7 @@ main h5 {
 
 } 
 
-main h5:hover {  
+main button:hover {  
 
     background-color: rgb(39, 39, 39);
     
